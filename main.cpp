@@ -138,7 +138,7 @@ using namespace std;
 
     //problem6
 
-    int a,b;
+   /* int a,b;
     cout<<"Enter two numbers: ";
     cin>>a>>b;
     while (b!=0) {
@@ -148,7 +148,43 @@ using namespace std;
     }
     cout<<"The GCD is: "<<a;
 
+*/
 
+    ///problem7
+   /* int a, sum=0, counter =0;
+
+    cout<<"Enter a number: ";
+
+
+    while (sum<100) {
+        cin>>a;
+        sum +=a;
+
+        counter++;
+
+    }
+    cout<<"Sum is: "<<sum<<endl;
+    cout<<"You entered "<<counter<<" numbers";*/
+
+    //problem8
+
+    int balance=500;
+    int n;
+    cout<<"Enter withdrawal amount: (or  0 to cancel)";
+
+    while (balance>0 && n!=0) {
+        cin>>n;
+        balance -=n;
+        cout<<"Remaining balance: "<<balance;
+    }
+    while ()
+    if (balance <0) {
+        cout<<"Insufficient funds!";
+    }
+    if (n==0) {
+        return 0;
+
+    }
     return 0;
 }
 
