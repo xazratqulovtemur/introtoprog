@@ -79,6 +79,28 @@ int main() {
 
     //problem5
     int n, m;
-    
+
+
+    //problem1
+
+    /*string s;
+    cin>>s;
+    int vowel=0, constant=0;
+    for (char c:s) {
+        if (c=='a' || c=='e' || c=='i' || c=='o' || c=='u') {
+            vowel++;
+        }
+        else {
+            constant++;
+        }
+
+    }
+    cout<<"\tVowels\tConstants"<<endl;
+    cout<<"\t"<<vowel<<"\t"<<constant<<endl;*/
+
+
+    //second way
+
+    char sentence[101]
     return 0;
 }
